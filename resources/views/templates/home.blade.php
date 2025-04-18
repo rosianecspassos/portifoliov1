@@ -9,7 +9,7 @@
 
      </head> 
      <body> 
-       
+    
 <div class="container-fluid nav_header w-100 "> 
 @yield('header')
 </div> 
