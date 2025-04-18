@@ -267,31 +267,50 @@ color:$azul;
 
     }
 
-    .cardprincipal img{
+    .card img{
       height: 180px;
       width: 180px;
       border:none;
+      margin-left: 60px;
     }
 
-    .conteudo ul{
+    .redes_sociais ul{
       margin-right: 26px;
 
     }
 
-    .conteudo ul li{
+    .redes_sociais   ul li{
       display:inline;
   }
- .conteudo li{
+ .redes_sociais li{
   margin-right: 4px;
 }
-    .conteudo a{
+    .redes_sociais a{
       color:$azul;
     }
 
    
-    .conteudo ul{
-      list-style: none;
-    }
+
+    .formacao {
+      display: flex;
+      flex-wrap: wrap; /* Permite que os itens "quebrem" para a próxima linha se não houver espaço suficiente */
+      gap: 10px; /* Espaço entre os itens */
+  }
+  .col_experiencia{
+ margin-top:25px;
+  }
+  
+
+  .card_experiencia h5{
+    margin-left:28px;
+
+  }
+  .experiencia li {
+    list-style-type:none;
+  }
+
+
+
 
     .portifolio{
       background-color: $azulescuro;
@@ -402,6 +421,33 @@ color:$azul;
       font-weight: 600;
 
     }
+
+.componentsapplication {
+  margin-right:50px ;
+  margin-bottom: 4px;
+}
+
+
+  .componentsapplication img{
+    height:120px;
+    width: 118px;
+    margin-top:-60px; 
+    float:left;
+    margin-right: -12px;
+  }
+
+ .componentsapplication h5{
+    font-size: 20px;
+    color:#004aad;
+    float:left;
+    font-weight: 600;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+
+}
+
+
+
     .footer{
       width: 100%;
       //background-color: $preto;
@@ -430,3 +476,5 @@ color:$azul;
     .footer ul{
       list-style: none;
     }
+
+
